@@ -10,6 +10,7 @@ import UIKit
 
 class LoginVC: UIViewController {
     
+    // created text field
     
     let emailTextField : UITextField = {
         let tf = UITextField()
@@ -30,6 +31,8 @@ class LoginVC: UIViewController {
         tf.font = UIFont.systemFont(ofSize: 14)
         return tf
     }()
+    
+    // created button
     
     let loginButton: UIButton = {
         let button = UIButton(type: .system)
