@@ -13,6 +13,7 @@
 		4C93406022C5670C00CF3FB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C93405E22C5670C00CF3FB6 /* LaunchScreen.storyboard */; };
 		4C93406B22C567BE00CF3FB6 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C93406A22C567BE00CF3FB6 /* LoginVC.swift */; };
 		4C93406E22C56AA600CF3FB6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C93406D22C56AA600CF3FB6 /* Extensions.swift */; };
+		4C93407022C95AC700CF3FB6 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C93406F22C95AC700CF3FB6 /* SignUpVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4C93406122C5670C00CF3FB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C93406A22C567BE00CF3FB6 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		4C93406D22C56AA600CF3FB6 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4C93406F22C95AC700CF3FB6 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				4C93406A22C567BE00CF3FB6 /* LoginVC.swift */,
+				4C93406F22C95AC700CF3FB6 /* SignUpVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C93407022C95AC700CF3FB6 /* SignUpVC.swift in Sources */,
 				4C93406B22C567BE00CF3FB6 /* LoginVC.swift in Sources */,
 				4C93406E22C56AA600CF3FB6 /* Extensions.swift in Sources */,
 				4C93405622C5670A00CF3FB6 /* AppDelegate.swift in Sources */,
